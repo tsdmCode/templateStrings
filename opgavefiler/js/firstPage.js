@@ -4,8 +4,9 @@
 const name = 'SpørgeJørgen';
 const years = 5;
 const message = `Hej ${name}, du har nu arbejdet i vores virksomhed i ${years} år`;
-
-document.getElementById('message').innerHTML = message;
+const aitchTwo = document.createElement('h2');
+aitchTwo.innerHTML = message;
+document.getElementById('message').append(aitchTwo);
 /* Opgave 1*/
 
 // din kode her
